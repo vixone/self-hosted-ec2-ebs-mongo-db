@@ -1,0 +1,24 @@
+# Go build artifacts
+main
+
+# Go dependencies
+bin/
+pkg/
+*.exe
+*.out
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+
+# Terraform files
+.terraform*
+terraform.tfstate*
+terraform.tfvars
+*.backup
+
+# Logs and temp files
+*.log
+*.tmp
+.DS_Store
